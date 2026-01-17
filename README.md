@@ -29,3 +29,13 @@ How do we stop this? We can't just block DNS.
 You need `scapy` installed:
 ```bash
 pip install scapy
+1. Run the Server/Firewall (On AWS/Linux)
+Bash
+
+sudo python3 firewall.py
+2. Run the Client (On Laptop)
+Bash
+
+python3 client.py
+⚠️ Disclaimer
+This tool is for Educational Purposes Only. Do not use this on networks you do not own.
